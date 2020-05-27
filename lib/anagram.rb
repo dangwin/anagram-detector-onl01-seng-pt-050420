@@ -4,7 +4,7 @@ class Anagram
   attr_accessor :words 
   
   def initialize(words)
-    words.sort
+    if words.sort == word
       
     end 
   end 
