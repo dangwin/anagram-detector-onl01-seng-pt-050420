@@ -9,7 +9,7 @@ class Anagram
     if word.sort == word.sort
       words 
     else 
-      words = []
+      word = []
       
     end 
   end 
