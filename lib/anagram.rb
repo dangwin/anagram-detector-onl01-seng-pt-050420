@@ -5,9 +5,11 @@ class Anagram
   
   def initialize(words)
     words.split("")
+    words.each do |word|
     if words.sort == word.sort
-      puts 
+      words 
+    else 
+      words = []
       
     end 
-  end 
   end 
