@@ -7,5 +7,5 @@ class Anagram
     words.select do |word|
       words.all?{ |word| phrase.include? word}
     end 
-    
+  end 
   end 
