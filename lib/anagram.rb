@@ -7,7 +7,7 @@ class Anagram
     words.split("")
     words.each do |word|
     if word.sort == word.sort
-      words 
+      word 
     else 
       word = []
       
