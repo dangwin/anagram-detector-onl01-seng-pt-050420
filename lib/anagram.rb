@@ -6,7 +6,7 @@ class Anagram
   def initialize(words)
     words.split("")
     words.each do |word|
-    if words.sort == word.sort
+    if word.sort == word.sort
       words 
     else 
       words = []
